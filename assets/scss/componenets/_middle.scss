@@ -25,10 +25,13 @@
     }
     &-imges{
         position: relative;
-        &-text{
-            position: absolute;
-            top: 20px;
-        }
+    }
+    &-imges-text{
+       position: absolute;
+       top: 0;
+   }
+    &-imges-wrapper{
+        padding-left: 20px;
     }
 
 }

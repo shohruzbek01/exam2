@@ -1,0 +1,21 @@
+.news{
+    width: 100%;
+    &-title{
+        font-weight: 800;
+        font-size: 30px;
+    }
+    &-names{
+        max-width: 169px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    &-imges{
+        width: 339px;
+        height: 458px;
+        border-radius: 16px;
+        background-color: #F9F8F6;
+    }
+    &-subtitle{
+        max-width: 289px;
+    }
+}

@@ -157,5 +157,30 @@ select {
 }
 .middle-imges-text {
   position: absolute;
-  top: 20px;
+  top: 0;
+}
+.middle-imges-wrapper {
+  padding-left: 20px;
+}
+
+.news {
+  width: 100%;
+}
+.news-title {
+  font-weight: 800;
+  font-size: 30px;
+}
+.news-names {
+  max-width: 169px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.news-imges {
+  width: 339px;
+  height: 458px;
+  border-radius: 16px;
+  background-color: #F9F8F6;
+}
+.news-subtitle {
+  max-width: 289px;
 }/*# sourceMappingURL=main.css.map */
