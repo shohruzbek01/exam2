@@ -54,11 +54,6 @@ select {
   width: 50px;
   border-radius: 5px;
 }
-@media and {
-  .header-select {
-    max-width: 900px;
-  }
-}
 .header-button {
   display: flex;
   align-items: center;
@@ -84,4 +79,83 @@ select {
 }
 .header-menu {
   display: none;
+}
+
+.banner {
+  margin-top: 50px;
+}
+.banner-row {
+  width: 100%;
+}
+.banner-img {
+  position: relative;
+}
+.banner-title {
+  position: absolute;
+  bottom: 100px;
+  left: 80px;
+}
+.banner-title-text {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 70px;
+}
+.banner-subtitle {
+  position: absolute;
+  bottom: 50px;
+  left: 80px;
+}
+.banner-subtitle-text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 25px;
+  max-width: 320px;
+}
+.banner-subtitle-wrap {
+  display: flex;
+}
+.banner-icon {
+  position: absolute;
+  bottom: 70px;
+  left: 350px;
+}
+.banner-icon:hover {
+  background-color: #FDC09F;
+  border-radius: 55%;
+}
+
+.middle {
+  width: 100%;
+}
+.middle-title-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.middle-button {
+  width: 100px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middle-title-text {
+  font-weight: 500;
+  color: black;
+  font-size: 25px;
+}
+.middle-title-text-brown {
+  color: #FDC09F;
+  padding-left: 10px;
+}
+.middle-imges {
+  position: relative;
+}
+.middle-imges-text {
+  position: absolute;
+  top: 20px;
 }/*# sourceMappingURL=main.css.map */
