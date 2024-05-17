@@ -1,0 +1,23 @@
+.wrapper{
+    font-family: $main-font;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 120%;
+    display: flex;
+    flex-direction: column ;
+}
+.container{
+    width: 100%;
+    max-width:$container-width +($container-padding *2);
+    margin: 0 auto;
+    padding: 0 $container-padding;
+}
+a{
+    text-decoration: none;
+}
+button,
+select{
+    border: none;
+    background: none;
+}

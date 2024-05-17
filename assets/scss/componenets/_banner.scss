@@ -1,0 +1,12 @@
+.banner{
+    &-row{
+      width: 100%;
+      height: 1000px;
+      background-color: aqua;
+    }
+    &-img{
+        width: 1420px;
+        height: 716px;
+        margin-top: 50px;
+    }
+}
