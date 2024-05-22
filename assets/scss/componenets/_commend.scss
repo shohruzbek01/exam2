@@ -1,0 +1,33 @@
+.commend{
+    width:100%;
+    height: 600px;
+    &-title{
+        font-family: SF Pro Text;
+        font-size: 39px;
+        font-weight: 600;
+        line-height: 46.54px;
+        &-text-brown{
+            color: #FDC09F;
+        }
+         &-text{
+               color: black;
+          }
+      }
+      &-imges-wrap{
+        display: flex;
+        justify-content: space-between;
+      }
+      &-img{
+        width: 337px;
+        height: 468px;
+        &-name{
+            color: aliceblue;
+        }
+        &-names-wrap{
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+        }
+      }
+
+ }

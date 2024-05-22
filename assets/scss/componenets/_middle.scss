@@ -10,9 +10,9 @@
         height: 30px;
         border: 1px solid black;
         border-radius: 5px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     &-title-text{
         font-weight: 500;
@@ -32,6 +32,10 @@
    }
     &-imges-wrapper{
         padding-left: 20px;
+    }
+    &-button:hover{
+        background-color: #FDC09F;
+        color: aliceblue;
     }
 
 }

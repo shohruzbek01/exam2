@@ -5,7 +5,6 @@
         font-size: 30px;
     }
     &-names{
-        max-width: 169px;
         font-weight: 500;
         font-size: 20px;
     }
@@ -18,4 +17,13 @@
     &-subtitle{
         max-width: 289px;
     }
+    &-img-wrap{
+        display: flex;
+        justify-content: space-between;
+    }
+   &-namess{
+   max-width: 250px;
+    font-weight: 500;
+    font-size: 20px;
+   }
 }

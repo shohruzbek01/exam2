@@ -41,7 +41,7 @@
              background-color: #FF8541;
 
              &-text{
-                 color: aliceblue;
+                 color:#ffffff;
              }
          }
 
@@ -56,6 +56,9 @@
     }
      &-button:hover{
         background-color: rgba(240, 248, 255, 0.508);
+    }
+    &-button-text:hover{
+        color: black;
     }
      &-menu{
         display:none;

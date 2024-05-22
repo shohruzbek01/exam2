@@ -1,0 +1,45 @@
+.connect{
+    width: 100%;
+    height: 1000px;
+    &-title{
+        font-family: SF Pro Text;
+       font-size: 39px;
+       font-weight: 600;
+       line-height: 46.54px;
+    }
+    &-wrap{
+      display: flex;
+    }
+    &-wrapper{
+        width: 1420px;
+        height: 524px;
+        border-radius: 16px 0px 0px 0px;
+        background-color: #F9F8F6;
+    }
+    &-right{
+          margin-left: 100px;
+        &-title{
+            font-family: SF Pro Text;
+            font-size: 31px;
+            font-weight: 600;
+            line-height: 36.99px;
+            color: #555351;
+        }
+    }
+    &-input{
+        display: flex;
+        align-items: center;
+        width: 533px;
+        height: 60px;
+        border-radius: 8px;
+        border: 1px solid #555351 ;   
+        margin-top: 20px;     
+    }
+    &-textarea{
+         width: 533px;
+        height: 112px;
+        border-radius: 8px;
+        border: 1px solid #555351 ;
+        margin-top: 20px;
+    }
+}
